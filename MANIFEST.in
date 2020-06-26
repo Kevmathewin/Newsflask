@@ -1,0 +1,4 @@
+include newsapp/schema.sql
+graft newsapp/static
+graft newsapp/templates
+global-exclude *.pyc
